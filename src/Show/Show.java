@@ -1,3 +1,8 @@
+package Show;
+
+import People.Actor;
+import People.Director;
+
 import java.util.ArrayList;
 
 public class Show {
@@ -26,7 +31,7 @@ public class Show {
     public void replaceActor(Actor newActor, String surnameToReplace) {
         int index = -1;
         for (int i = 0; i < listOfActors.size(); i++) {
-            if (listOfActors.get(i).surname.equals(surnameToReplace)) {
+            if (listOfActors.get(i).getSurname().equals(surnameToReplace)) {
                 index = i;
                 break;
             }

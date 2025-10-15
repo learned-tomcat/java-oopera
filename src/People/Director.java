@@ -1,3 +1,5 @@
+package People;
+
 public class Director extends Person {
     private int numberOfShows;
 

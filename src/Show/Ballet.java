@@ -1,3 +1,7 @@
+package Show;
+
+import People.Director;
+
 public class Ballet extends MusicalShow {
     private String choreographer;
 

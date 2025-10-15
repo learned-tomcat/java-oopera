@@ -1,3 +1,6 @@
+import People.*;
+import Show.*;
+
 public class Theatre {
     public static void main(String[] args) {
         // создаём актёров

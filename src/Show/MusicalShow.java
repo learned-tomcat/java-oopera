@@ -1,3 +1,7 @@
+package Show;
+
+import People.Director;
+
 public class MusicalShow extends Show {
     protected String musicAuthor;
     protected String librettoText;
